@@ -1,0 +1,133 @@
+html {
+  color: white;
+  font-family: 'Jost', sans-serif;
+  background-color: #16161d;
+}
+
+body header {
+  font-size: 1em;
+  padding: 2em;
+  text-align: center;
+  letter-spacing: 1em;
+  background-image: url('images/campo.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0px 0px 5px 5px #16161d; /* Standard */
+  transition: font-size 1s;
+}
+
+body header:hover {
+  font-size: 1.5em;
+}
+
+body subheader{
+    display: block;
+    padding: 1em;
+    text-align: center;
+    align-items: stretch;
+}
+
+subheader a {
+  transition: font-size 1s;
+  padding-left: 6em;
+  padding-right: 6em;
+}
+subheader a:hover{
+  font-size: 1.2em;
+}
+
+body div {
+  padding: 1em;
+  vertical-align: middle;
+}
+
+body > div > img {
+  width: 30%;
+}
+
+a {
+  padding: 1em;
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  text-align: center;
+  padding: 1em;
+}
+
+main img {
+  padding: inherit;
+  height: 200px;
+  width: 200px;
+}
+
+section {
+  text-align: center;
+  position: relative;
+  max-height: 608px;
+  width:100%;
+  display: table;
+}
+section a{
+  width:30%;
+  height: 600px;
+  display: table-cell;
+  vertical-align: middle;
+  box-shadow: inset 0px 0px 5px 5px #16161d; /* Standard */
+  transition: font-size 1s, width 1s;
+}
+
+section a:hover{
+  font-size: 1.2em;
+  width:33%;
+}
+
+#daniel {
+  background-image: url("images/barco.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#joao {
+  background-image: url("images/árvores.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#mateus {
+  background-image: url("images/fábrica.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+body footer {
+  font-size: 1em;
+  padding: 1em;
+  text-align: center;
+  background-image: url('images/pântano.png');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0px 0px 5px 5px #16161d; /* Standard */
+  transition: font-size 1s;
+}
+
+
+footer a {
+  padding: 2em;
+}
+
+footer img {
+  filter: grayscale(60%) blur(2px);
+  height: 32px;
+  width: 32px;
+  transition: filter 0.5s, height 0.5s, width 0.5s;
+}
+
+footer img:hover {
+  filter: none;
+  height: 40px;
+  width: 40px;
+}
