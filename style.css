@@ -84,6 +84,10 @@ section a:hover{
   width:33%;
 }
 
+iframe {
+  padding: 1em;
+}
+
 #daniel {
   background-image: url("images/barco.png");
   background-repeat: no-repeat;
